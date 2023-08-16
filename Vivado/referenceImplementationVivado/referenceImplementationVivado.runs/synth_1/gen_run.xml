@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1661002326" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/dRISC.dcp">
+  <File Type="PA-TCL" Name="dRISC.tcl"/>
+  <File Type="REPORTS-TCL" Name="dRISC_reports.tcl"/>
+  <File Type="RDS-RDS" Name="dRISC.vds"/>
+  <File Type="RDS-UTIL" Name="dRISC_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="dRISC_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="dRISC.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/dRISC_DEFINITIONS.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/dRISC_DEFINITIONS.vhd"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/dRISC_ALU.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/dRISC_ALU.vhd"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/dRISC_FSM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/dRISC_FSM.vhd"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/dRISC_IOCONTROLLER.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/dRISC_IOCONTROLLER.vhd"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/dRISC_PLL.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/dRISC_PLL.vhd"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/iobuf.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/iobuf.vhd"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/memory.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/memory.vhd"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/dRISC.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/dRISC.vhd"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/memory.cmp">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/memory.cmp"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/iobuf.qip">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/iobuf.qip"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/dRISC_PLL.cmp">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/dRISC_PLL.cmp"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/dRISC_PLL.ppf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/dRISC_PLL.ppf"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/dRISC.qpf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/dRISC.qpf"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/fpga.mif">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/fpga.mif"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/iotest.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/iotest.coe"/>
+        <Attr Name="ImportTime" Val="1650991040"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/memory.qip">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/memory.qip"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/iobuf.cmp">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/iobuf.cmp"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/dRISC.qsf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/dRISC.qsf"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/dRISC_PLL.qip">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/dRISC_PLL.qip"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/dRISC_chain.cdf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/dRISC_chain.cdf"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/memory_inst.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/memory_inst.vhd"/>
+        <Attr Name="ImportTime" Val="1650990882"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/quartusrtl.out.full.iotest/fpga.coe.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../RefrenceImpl/Generated/quartusrtl.out.full.iotest/fpga.coe.mem"/>
+        <Attr Name="ImportTime" Val="1651157017"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="dRISC"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/VivadoResources/zyboZ7Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../VivadoResources/zyboZ7Master.xdc"/>
+        <Attr Name="ImportTime" Val="1650364857"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/VivadoResources/zyboZ7Master.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/dRISC.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,2 @@
+dRISC_PLL_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../../referenceImplementationVivado.gen/sources_1/ip/dRISC_PLL_1/dRISC_PLL_sim_netlist.vhdl,incdir="../../../../referenceImplementationVivado.gen/sources_1/ip/dRISC_PLL_1"
+glbl.v,Verilog,xil_defaultlib,glbl.v

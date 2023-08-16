@@ -1,0 +1,43 @@
+module CyclicAccurate.CyclicAccurateStates where
+import Clash.Prelude
+data IoCtrState
+  = RESET_IOCTR
+  | WAIT_FOR_IWR
+  | EDGE_DETECT
+  | EDGE_DETECT_DIR
+  | EDGE_DECIDE
+  | LEAVE
+  | RESYNC
+  deriving (Show, Generic, NFDataX)
+
+data FsmState
+  = TTA_MEMR_WRITE_BACK
+  | TTA_MEM_WRITE_BACK
+  | FETCH_0_SAVE_MCR
+  | FETCH_MCR
+  | ISR_UPDATE
+  | IWR_RESET
+  | IWR_INT_SET
+  | WAIT_FOR_INTERRUPT
+  | ISR_WRITE_BACK
+  | FETCH_A
+  | TTA_WRITE_BACK
+  | LEQ_PC_WRITE_BACK
+  | MEM_WRITE_BACK
+  | MEMR_WRITE_BACK
+  | PCS_WRITE_BACK
+  | RESET
+  | CPU_CYCLE_START
+  | FETCH_B_SAVE_A
+  | FETCH_C_SAVE_B
+  | FETCH_D_SAVE_C
+  | FETCH_E_SAVE_D
+  | FETCH_F_SAVE_E
+  | FETCH_0_SAVE_F
+  | BOOTSTRAP_CTRL
+  | TTA_CTRL
+  | EXEC_CTRL
+  | LEQ_FLAGS_WRITE_BACK
+  | CPU_HALT
+  | IWR_INT_TRIGGER
+  deriving (Show, Generic, NFDataX)

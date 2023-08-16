@@ -1,0 +1,94 @@
+"filename", "language", "Shell Script", "vcd", "Haskell", "Cabal", "Markdown", "Graphviz (DOT)", "VHDL", "XML", "JSON", "Xilinx Design Constraints", "Python", "C++", "Verilog", "YAML", "comment", "blank", "total"
+"d:\git\clash-moisc\Clash\ClashProject\README.md", "Markdown", 0, 0, 0, 0, 253, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 78, 333
+"d:\git\clash-moisc\Clash\ClashProject\Setup.hs", "Haskell", 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 6
+"d:\git\clash-moisc\Clash\ClashProject\bin\Clash.hs", "Haskell", 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 8
+"d:\git\clash-moisc\Clash\ClashProject\bin\Clashi.hs", "Haskell", 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 8
+"d:\git\clash-moisc\Clash\ClashProject\compileSpeicherTest.vcd", "vcd", 0, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 65
+"d:\git\clash-moisc\Clash\ClashProject\doc\Graph.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 482, 0, 0, 0, 0, 0, 0, 115, 130, 727
+"d:\git\clash-moisc\Clash\ClashProject\doc\statemachine.dot", "Graphviz (DOT)", 0, 0, 0, 0, 0, 147, 0, 0, 0, 0, 0, 0, 0, 0, 1, 16, 164
+"d:\git\clash-moisc\Clash\ClashProject\generate_alu.sh", "Shell Script", 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 6
+"d:\git\clash-moisc\Clash\ClashProject\generate_fsm.sh", "Shell Script", 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 6
+"d:\git\clash-moisc\Clash\ClashProject\generate_iobuf.sh", "Shell Script", 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 5
+"d:\git\clash-moisc\Clash\ClashProject\generate_ioctr.sh", "Shell Script", 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 5
+"d:\git\clash-moisc\Clash\ClashProject\generate_mem.sh", "Shell Script", 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 5
+"d:\git\clash-moisc\Clash\ClashProject\generate_moisc.sh", "Shell Script", 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 5
+"d:\git\clash-moisc\Clash\ClashProject\mosicImpl.cabal", "Cabal", 0, 0, 0, 107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 16, 134
+"d:\git\clash-moisc\Clash\ClashProject\mydump.vcd", "vcd", 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 17
+"d:\git\clash-moisc\Clash\ClashProject\src\CyclicAccurate\CyclicAccurateInterfaces.hs", "Haskell", 0, 0, 235, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 42, 280
+"d:\git\clash-moisc\Clash\ClashProject\src\CyclicAccurate\CyclicAccurateMOISC.hs", "Haskell", 0, 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 43
+"d:\git\clash-moisc\Clash\ClashProject\src\CyclicAccurate\CyclicAccurateStates.hs", "Haskell", 0, 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 44
+"d:\git\clash-moisc\Clash\ClashProject\src\CyclicAccurate\Fsm.hs", "Haskell", 0, 0, 930, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 203, 107, 1240
+"d:\git\clash-moisc\Clash\ClashProject\src\CyclicAccurate\IoBuffer.hs", "Haskell", 0, 0, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 9, 63
+"d:\git\clash-moisc\Clash\ClashProject\src\CyclicAccurate\IoController.hs", "Haskell", 0, 0, 88, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 6, 117
+"d:\git\clash-moisc\Clash\ClashProject\src\CyclicMonad\MonadInterfaces.hs", "Haskell", 0, 0, 254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 42, 300
+"d:\git\clash-moisc\Clash\ClashProject\src\CyclicMonad\MonadMoisc.hs", "Haskell", 0, 0, 417, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 23, 449
+"d:\git\clash-moisc\Clash\ClashProject\src\Example\Bundletest.hs", "Haskell", 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 32
+"d:\git\clash-moisc\Clash\ClashProject\src\Example\MonadTest.hs", "Haskell", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 46, 1, 47
+"d:\git\clash-moisc\Clash\ClashProject\src\Example\MonoidTest.hs", "Haskell", 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 14, 57
+"d:\git\clash-moisc\Clash\ClashProject\src\Example\Project.hs", "Haskell", 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 4, 20
+"d:\git\clash-moisc\Clash\ClashProject\src\Example\RWStest.hs", "Haskell", 0, 0, 59, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 21, 83
+"d:\git\clash-moisc\Clash\ClashProject\src\JoinedState\JoinedStateFSM.hs", "Haskell", 0, 0, 245, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 308
+"d:\git\clash-moisc\Clash\ClashProject\src\StandardEntities\Alu.hs", "Haskell", 0, 0, 88, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 53, 8, 149
+"d:\git\clash-moisc\Clash\ClashProject\src\StandardEntities\Barbies.hs", "Haskell", 0, 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 29
+"d:\git\clash-moisc\Clash\ClashProject\src\StandardEntities\Instructions.hs", "Haskell", 0, 0, 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 53
+"d:\git\clash-moisc\Clash\ClashProject\src\StandardEntities\Mem.hs", "Haskell", 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 10, 62
+"d:\git\clash-moisc\Clash\ClashProject\src\StandardEntities\Registers.hs", "Haskell", 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 17, 61
+"d:\git\clash-moisc\Clash\ClashProject\stack.yaml", "YAML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 2, 13
+"d:\git\clash-moisc\Clash\ClashProject\stack.yaml.lock", "YAML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70, 4, 2, 76
+"d:\git\clash-moisc\Clash\ClashProject\tests\Tests\Example\Project.hs", "Haskell", 0, 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 27
+"d:\git\clash-moisc\Clash\ClashProject\tests\doctests.hs", "Haskell", 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 21
+"d:\git\clash-moisc\Clash\ClashProject\tests\unittests.hs", "Haskell", 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 11
+"d:\git\clash-moisc\Clash\ClashProject\verilog\Lib.IoBuffer.topEntityComparisonIoBuffer\IoBuffer.sdc", "Xilinx Design Constraints", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 3
+"d:\git\clash-moisc\Clash\ClashProject\verilog\Lib.IoBuffer.topEntityComparisonIoBuffer\IoBuffer.v", "Verilog", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 237, 0, 85, 99, 421
+"d:\git\clash-moisc\Clash\ClashProject\verilog\Lib.IoBuffer.topEntityComparisonIoBuffer\IoBuffer_shim.cpp", "C++", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 0, 0, 0, 10, 23
+"d:\git\clash-moisc\Clash\ClashProject\verilog\Lib.IoBuffer.topEntityComparisonIoBuffer\clash-manifest.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 0, 112, 0, 0, 0, 0, 0, 0, 0, 112
+"d:\git\clash-moisc\Clash\ClashProject\verilog\Lib.IoBuffer.topEntityComparisonIoBuffer\edam.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 0, 0, 0, 15, 7, 72
+"d:\git\clash-moisc\Clash\ClashProject\verilog\Main.topEntity\DramTest.sdc", "Xilinx Design Constraints", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 3
+"d:\git\clash-moisc\Clash\ClashProject\verilog\Main.topEntity\DramTest.v", "Verilog", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 62, 0, 17, 21, 100
+"d:\git\clash-moisc\Clash\ClashProject\verilog\Main.topEntity\DramTest_shim.cpp", "C++", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 0, 0, 0, 10, 23
+"d:\git\clash-moisc\Clash\ClashProject\verilog\Main.topEntity\clash-manifest.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 0, 102, 0, 0, 0, 0, 0, 0, 0, 102
+"d:\git\clash-moisc\Clash\ClashProject\verilog\Main.topEntity\edam.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 55, 0, 0, 0, 15, 7, 77
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntitiyComparisonAlu\ALU.sdc", "Xilinx Design Constraints", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 3
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntitiyComparisonAlu\ALU.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 188, 0, 0, 0, 0, 0, 0, 0, 27, 41, 256
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntitiyComparisonAlu\ALU_types.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 132, 0, 0, 0, 0, 0, 0, 0, 0, 8, 140
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntitiyComparisonAlu\clash-manifest.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 0, 140, 0, 0, 0, 0, 0, 0, 0, 140
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntitiyComparisonAlu\edam.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 55, 0, 0, 0, 15, 7, 77
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntityAlu\ALU.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 130, 0, 0, 0, 0, 0, 0, 0, 24, 29, 183
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntityAlu\ALU_types.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 120, 0, 0, 0, 0, 0, 0, 0, 0, 7, 127
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntityAlu\clash-manifest.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 0, 112, 0, 0, 0, 0, 0, 0, 0, 112
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntityAlu\edam.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 0, 0, 0, 15, 7, 72
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntitiyComparisonFsm\FSM.sdc", "Xilinx Design Constraints", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 3
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntitiyComparisonFsm\FSM.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 2165, 0, 0, 0, 0, 0, 0, 0, 28, 97, 2290
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntitiyComparisonFsm\FSM_types.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 397, 0, 0, 0, 0, 0, 0, 0, 0, 9, 406
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntitiyComparisonFsm\clash-manifest.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 0, 258, 0, 0, 0, 0, 0, 0, 0, 258
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntitiyComparisonFsm\edam.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 55, 0, 0, 0, 15, 7, 77
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntityFsm\FSM.sdc", "Xilinx Design Constraints", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 3
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntityFsm\FSM.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 2047, 0, 0, 0, 0, 0, 0, 0, 18, 81, 2146
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntityFsm\FSM_types.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 353, 0, 0, 0, 0, 0, 0, 0, 0, 8, 361
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntityFsm\clash-manifest.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 0, 266, 0, 0, 0, 0, 0, 0, 0, 266
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntityFsm\edam.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 55, 0, 0, 0, 15, 7, 77
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.IoBuffer.topEntityComparisonIoBuffer\IoBuffer.sdc", "Xilinx Design Constraints", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 3
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.IoBuffer.topEntityComparisonIoBuffer\IoBuffer.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 327, 0, 0, 0, 0, 0, 0, 0, 90, 119, 536
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.IoBuffer.topEntityComparisonIoBuffer\IoBuffer_types.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 110, 0, 0, 0, 0, 0, 0, 0, 0, 7, 117
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.IoBuffer.topEntityComparisonIoBuffer\clash-manifest.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 0, 112, 0, 0, 0, 0, 0, 0, 0, 112
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.IoBuffer.topEntityComparisonIoBuffer\edam.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 55, 0, 0, 0, 15, 7, 77
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mem.topEntitiyComparisonMem\Mem.sdc", "Xilinx Design Constraints", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 3
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mem.topEntitiyComparisonMem\Mem.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 94, 0, 0, 0, 0, 0, 0, 0, 19, 22, 135
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mem.topEntitiyComparisonMem\Mem_types.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 105, 0, 0, 0, 0, 0, 0, 0, 0, 9, 114
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mem.topEntitiyComparisonMem\clash-manifest.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 0, 123, 0, 0, 0, 0, 0, 0, 0, 123
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mem.topEntitiyComparisonMem\edam.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 0, 0, 0, 15, 7, 82
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mosic.topEntity\Lib_Mosic_topEntity_types.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 441, 0, 0, 0, 0, 0, 0, 0, 0, 9, 450
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mosic.topEntity\clash-manifest.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 0, 109, 0, 0, 0, 0, 0, 0, 0, 109
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mosic.topEntity\edam.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 0, 0, 0, 15, 7, 82
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mosic.topEntity\topentity.sdc", "Xilinx Design Constraints", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 3
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mosic.topEntity\topentity.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 2355, 0, 0, 0, 0, 0, 0, 0, 62, 119, 2536
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.topEntityComparisonIoController\IoCtr.sdc", "Xilinx Design Constraints", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 3
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.topEntityComparisonIoController\IoCtr.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 165, 0, 0, 0, 0, 0, 0, 0, 12, 30, 207
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.topEntityComparisonIoController\IoCtr_types.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 174, 0, 0, 0, 0, 0, 0, 0, 0, 7, 181
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.topEntityComparisonIoController\clash-manifest.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 0, 133, 0, 0, 0, 0, 0, 0, 0, 133
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.topEntityComparisonIoController\edam.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 55, 0, 0, 0, 15, 7, 77
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Main.topEntity\Main_topEntity_types.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 142, 0, 0, 0, 0, 0, 0, 0, 0, 8, 150
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Main.topEntity\clash-manifest.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 0, 108, 0, 0, 0, 0, 0, 0, 0, 108
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Main.topEntity\topEntity.sdc", "Xilinx Design Constraints", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 3
+"d:\git\clash-moisc\Clash\ClashProject\vhdl\Main.topEntity\topEntity.vhdl", "VHDL", 0, 0, 0, 0, 0, 0, 316, 0, 0, 0, 0, 0, 0, 0, 11, 16, 343
+"Total", "-", 8, 80, 2700, 107, 253, 147, 9761, 482, 1575, 10, 550, 26, 299, 81, 1113, 1507, 18699

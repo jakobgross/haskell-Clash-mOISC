@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../referenceImplementationVivado.srcs/sources_1/imports/quartusrtl.out.full.iotest/dRISC_DEFINITIONS.vhd" \
+"../../../../referenceImplementationVivado.srcs/sources_1/imports/quartusrtl.out.full.iotest/dRISC_ALU.vhd" \
+"../../../../referenceImplementationVivado.srcs/sources_1/imports/quartusrtl.out.full.iotest/dRISC_FSM.vhd" \
+"../../../../referenceImplementationVivado.srcs/sources_1/imports/quartusrtl.out.full.iotest/dRISC_IOCONTROLLER.vhd" \
+"../../../../referenceImplementationVivado.srcs/sources_1/imports/quartusrtl.out.full.iotest/dRISC_PLL.vhd" \
+"../../../../referenceImplementationVivado.srcs/sources_1/imports/quartusrtl.out.full.iotest/iobuf.vhd" \
+"../../../../referenceImplementationVivado.srcs/sources_1/imports/quartusrtl.out.full.iotest/memory.vhd" \
+"../../../../referenceImplementationVivado.srcs/sources_1/imports/quartusrtl.out.full.iotest/dRISC.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,59 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.513097",
+   "Default View_TopLeft":"-271,-343",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_RST -pg 1 -lvl 0 -x -120 -y 60 -defaultsOSRD
+preplace port port-id_sysclk -pg 1 -lvl 0 -x -120 -y -190 -defaultsOSRD
+preplace portBus outside_io_0 -pg 1 -lvl 6 -x 1610 -y 370 -defaultsOSRD
+preplace inst clashAlu_0 -pg 1 -lvl 5 -x 1380 -y -40 -defaultsOSRD
+preplace inst clashIoCtr_0 -pg 1 -lvl 5 -x 1380 -y 170 -defaultsOSRD
+preplace inst clashMem_0 -pg 1 -lvl 5 -x 1380 -y -240 -defaultsOSRD
+preplace inst clashFsm_0 -pg 1 -lvl 4 -x 870 -y 150 -defaultsOSRD
+preplace inst clashIoBuffer_0 -pg 1 -lvl 5 -x 1380 -y 370 -defaultsOSRD
+preplace inst clashClockGen_0 -pg 1 -lvl 3 -x 510 -y -230 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 290 -y -200 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 1 -x 50 -y -50 -defaultsOSRD
+preplace netloc Net 1 5 1 1590J 360n
+preplace netloc clashAlu_0_out_cmp 1 3 3 670 450 N 450 1580J
+preplace netloc clashAlu_0_out_data 1 3 3 680 460 N 460 1570J
+preplace netloc clashAlu_0_out_overflow 1 3 3 640 -370 N -370 1580J
+preplace netloc clashClockGen_0_clkOut 1 3 2 630 -230 1210J
+preplace netloc clashFsm_0_out_alu_mcr 1 4 1 1070 -80n
+preplace netloc clashFsm_0_out_alu_mem_a 1 4 1 1180 -40n
+preplace netloc clashFsm_0_out_alu_mem_b 1 4 1 1150 -20n
+preplace netloc clashFsm_0_out_alu_mem_mem_b 1 4 1 1200 0n
+preplace netloc clashFsm_0_out_alu_pc 1 4 1 1130 -60n
+preplace netloc clashFsm_0_out_clock_speed 1 2 3 390 -360 NJ -360 1060
+preplace netloc clashFsm_0_out_iobuf_dataout 1 4 1 1100 230n
+preplace netloc clashFsm_0_out_iobuf_oe 1 4 1 1080 250n
+preplace netloc clashFsm_0_out_ioctr_icr 1 4 1 1140 90n
+preplace netloc clashFsm_0_out_ioctr_interrupt_block 1 4 1 1160J 110n
+preplace netloc clashFsm_0_out_ioctr_iwr 1 4 1 1170 70n
+preplace netloc clashFsm_0_out_mem_address 1 4 1 1080 -200n
+preplace netloc clashFsm_0_out_mem_data_wr 1 4 1 1110 -180n
+preplace netloc clashFsm_0_out_mem_rden 1 4 1 1090 -240n
+preplace netloc clashFsm_0_out_mem_wren 1 4 1 1100 -220n
+preplace netloc clashFsm_0_out_status_cpu_stop_status 1 2 3 400 -350 NJ -350 1050
+preplace netloc clashIoBuffer_0_to_fsm 1 3 3 690 400 1210J 440 1540
+preplace netloc clashIoCtr_0_out_CPU_STOP 1 3 3 630 470 N 470 1560
+preplace netloc clashIoCtr_0_out_INTERRUPT 1 3 3 660 390 1220 290 1540
+preplace netloc clashIoCtr_0_out_ISR 1 3 3 650 380 1070 300 1550
+preplace netloc clashMem_0_out_data_q 1 3 3 660 -340 1120 -360 1540
+preplace netloc clk_wiz_0_locked 1 2 3 380J -340 620J -260 1190
+preplace netloc clk_wiz_0_clk_out1 1 2 1 N -240
+preplace netloc clk_wiz_0_clk_out2 1 2 1 390 -220n
+preplace netloc clk_wiz_0_clk_out3 1 2 1 400 -200n
+preplace netloc clk_wiz_0_clk_out4 1 2 1 410 -180n
+preplace netloc clk_in1_0_1 1 0 2 N -190 N
+preplace netloc RST_1 1 0 5 -100 60 N 60 N 60 610 370 1120
+preplace netloc util_vector_logic_0_Res 1 1 1 190 -210n
+levelinfo -pg 1 -120 50 290 510 870 1380 1610
+pagesize -pg 1 -db -bbox -sgen -210 -420 1770 480
+"
+}
+{
+   "da_clkrst_cnt":"3"
+}

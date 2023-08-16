@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_compare_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="alu_types" />
+            <top_module name="drisc_definitions" />
+            <top_module name="fsm_types" />
+            <top_module name="mem_types" />
+            <top_module name="tb_compare" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="45,129.713070 us"></ZoomStartTime>
+      <ZoomEndTime time="47,369.713071 us"></ZoomEndTime>
+      <Cursor1Time time="30,589.156000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="269"></NameColumnWidth>
+      <ValueColumnWidth column_width="111"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="73" />
+   <wvobject fp_name="/tb_compare/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/inOutBuffer" type="array">
+      <obj_property name="ElementShortName">inOutBuffer[7:0]</obj_property>
+      <obj_property name="ObjectShortName">inOutBuffer[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/CLKu" type="logic">
+      <obj_property name="ElementShortName">CLKu</obj_property>
+      <obj_property name="ObjectShortName">CLKu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/CLKu0" type="logic">
+      <obj_property name="ElementShortName">CLKu0</obj_property>
+      <obj_property name="ObjectShortName">CLKu0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/CLKuu0" type="logic">
+      <obj_property name="ElementShortName">CLKuu0</obj_property>
+      <obj_property name="ObjectShortName">CLKuu0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/PLLo0" type="logic">
+      <obj_property name="ElementShortName">PLLo0</obj_property>
+      <obj_property name="ObjectShortName">PLLo0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/PLLo1" type="logic">
+      <obj_property name="ElementShortName">PLLo1</obj_property>
+      <obj_property name="ObjectShortName">PLLo1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/PLLo2" type="logic">
+      <obj_property name="ElementShortName">PLLo2</obj_property>
+      <obj_property name="ObjectShortName">PLLo2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/PLLo3" type="logic">
+      <obj_property name="ElementShortName">PLLo3</obj_property>
+      <obj_property name="ObjectShortName">PLLo3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/RSTu" type="logic">
+      <obj_property name="ElementShortName">RSTu</obj_property>
+      <obj_property name="ObjectShortName">RSTu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/IWRuu" type="array">
+      <obj_property name="ElementShortName">IWRuu[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IWRuu[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/ICRuu" type="array">
+      <obj_property name="ElementShortName">ICRuu[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ICRuu[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/CSRuu" type="array">
+      <obj_property name="ElementShortName">CSRuu[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRuu[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/ISRi" type="array">
+      <obj_property name="ElementShortName">ISRi[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ISRi[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/IORuu" type="array">
+      <obj_property name="ElementShortName">IORuu[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IORuu[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/IORi" type="array">
+      <obj_property name="ElementShortName">IORi[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IORi[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/IORii" type="array">
+      <obj_property name="ElementShortName">IORii[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IORii[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/PCu_reference" type="array">
+      <obj_property name="ElementShortName">PCu_reference[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PCu_reference[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/PCu_clash" type="array">
+      <obj_property name="ElementShortName">PCu_clash[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PCu_clash[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/MCRu_reference" type="array">
+      <obj_property name="ElementShortName">MCRu_reference[7:0]</obj_property>
+      <obj_property name="ObjectShortName">MCRu_reference[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/MCRu_clash" type="array">
+      <obj_property name="ElementShortName">MCRu_clash[7:0]</obj_property>
+      <obj_property name="ObjectShortName">MCRu_clash[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/IWRu_reference" type="array">
+      <obj_property name="ElementShortName">IWRu_reference[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IWRu_reference[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/IWRu_clash" type="array">
+      <obj_property name="ElementShortName">IWRu_clash[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IWRu_clash[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/ICRu_reference" type="array">
+      <obj_property name="ElementShortName">ICRu_reference[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ICRu_reference[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/ICRu_clash" type="array">
+      <obj_property name="ElementShortName">ICRu_clash[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ICRu_clash[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/CSRu_reference" type="array">
+      <obj_property name="ElementShortName">CSRu_reference[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRu_reference[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/CSRu_clash" type="array">
+      <obj_property name="ElementShortName">CSRu_clash[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRu_clash[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/IORu_reference" type="array">
+      <obj_property name="ElementShortName">IORu_reference[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IORu_reference[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/IORu_clash" type="array">
+      <obj_property name="ElementShortName">IORu_clash[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IORu_clash[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/IDRu_reference" type="array">
+      <obj_property name="ElementShortName">IDRu_reference[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IDRu_reference[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/IDRu_clash" type="array">
+      <obj_property name="ElementShortName">IDRu_clash[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IDRu_clash[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/Eu_reference" type="array">
+      <obj_property name="ElementShortName">Eu_reference[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Eu_reference[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/Eu_clash" type="array">
+      <obj_property name="ElementShortName">Eu_clash[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Eu_clash[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/Du_reference" type="array">
+      <obj_property name="ElementShortName">Du_reference[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Du_reference[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/Du_clash" type="array">
+      <obj_property name="ElementShortName">Du_clash[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Du_clash[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/Fu_reference" type="array">
+      <obj_property name="ElementShortName">Fu_reference[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Fu_reference[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/Fu_clash" type="array">
+      <obj_property name="ElementShortName">Fu_clash[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Fu_clash[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/INTERRUPT_BLOCKu_reference" type="logic">
+      <obj_property name="ElementShortName">INTERRUPT_BLOCKu_reference</obj_property>
+      <obj_property name="ObjectShortName">INTERRUPT_BLOCKu_reference</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/CPU_STOPu_reference" type="logic">
+      <obj_property name="ElementShortName">CPU_STOPu_reference</obj_property>
+      <obj_property name="ObjectShortName">CPU_STOPu_reference</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/MEM_addressu_reference" type="array">
+      <obj_property name="ElementShortName">MEM_addressu_reference[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_addressu_reference[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/MEM_addressu_clash" type="array">
+      <obj_property name="ElementShortName">MEM_addressu_clash[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_addressu_clash[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/MEM_datau_reference" type="array">
+      <obj_property name="ElementShortName">MEM_datau_reference[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_datau_reference[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/MEM_datau_clash" type="array">
+      <obj_property name="ElementShortName">MEM_datau_clash[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_datau_clash[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/MEM_rdenu_reference" type="logic">
+      <obj_property name="ElementShortName">MEM_rdenu_reference</obj_property>
+      <obj_property name="ObjectShortName">MEM_rdenu_reference</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/MEM_rdenu_clash" type="logic">
+      <obj_property name="ElementShortName">MEM_rdenu_clash</obj_property>
+      <obj_property name="ObjectShortName">MEM_rdenu_clash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/MEM_wrenu_reference" type="logic">
+      <obj_property name="ElementShortName">MEM_wrenu_reference</obj_property>
+      <obj_property name="ObjectShortName">MEM_wrenu_reference</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/MEM_wrenu_clash" type="logic">
+      <obj_property name="ElementShortName">MEM_wrenu_clash</obj_property>
+      <obj_property name="ObjectShortName">MEM_wrenu_clash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/INTERRUPT_BLOCKu_clash" type="logic">
+      <obj_property name="ElementShortName">INTERRUPT_BLOCKu_clash</obj_property>
+      <obj_property name="ObjectShortName">INTERRUPT_BLOCKu_clash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/CPU_STOPu_clash" type="logic">
+      <obj_property name="ElementShortName">CPU_STOPu_clash</obj_property>
+      <obj_property name="ObjectShortName">CPU_STOPu_clash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/CMPu_reference" type="array">
+      <obj_property name="ElementShortName">CMPu_reference[2:0]</obj_property>
+      <obj_property name="ObjectShortName">CMPu_reference[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/CMPu_clash" type="array">
+      <obj_property name="ElementShortName">CMPu_clash[2:0]</obj_property>
+      <obj_property name="ObjectShortName">CMPu_clash[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/DATAu_reference" type="array">
+      <obj_property name="ElementShortName">DATAu_reference[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DATAu_reference[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/DATAu_clash" type="array">
+      <obj_property name="ElementShortName">DATAu_clash[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DATAu_clash[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/OVERFLOWu_reference" type="logic">
+      <obj_property name="ElementShortName">OVERFLOWu_reference</obj_property>
+      <obj_property name="ObjectShortName">OVERFLOWu_reference</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/OVERFLOWu_clash" type="logic">
+      <obj_property name="ElementShortName">OVERFLOWu_clash</obj_property>
+      <obj_property name="ObjectShortName">OVERFLOWu_clash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/MEM_qu_reference" type="array">
+      <obj_property name="ElementShortName">MEM_qu_reference[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_qu_reference[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/MEM_qu_clash" type="array">
+      <obj_property name="ElementShortName">MEM_qu_clash[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_qu_clash[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/IDRuu" type="array">
+      <obj_property name="ElementShortName">IDRuu[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IDRuu[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/INTERRUPTi" type="logic">
+      <obj_property name="ElementShortName">INTERRUPTi</obj_property>
+      <obj_property name="ObjectShortName">INTERRUPTi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/CPU_STOPio" type="logic">
+      <obj_property name="ElementShortName">CPU_STOPio</obj_property>
+      <obj_property name="ObjectShortName">CPU_STOPio</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/LOCKu" type="logic">
+      <obj_property name="ElementShortName">LOCKu</obj_property>
+      <obj_property name="ObjectShortName">LOCKu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/HALTu" type="logic">
+      <obj_property name="ElementShortName">HALTu</obj_property>
+      <obj_property name="ObjectShortName">HALTu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/RSTdb" type="logic">
+      <obj_property name="ElementShortName">RSTdb</obj_property>
+      <obj_property name="ObjectShortName">RSTdb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/T" type="other">
+      <obj_property name="ElementShortName">T</obj_property>
+      <obj_property name="ObjectShortName">T</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/PROCESSOR0/STATE" type="other">
+      <obj_property name="ElementShortName">STATE</obj_property>
+      <obj_property name="ObjectShortName">STATE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/CLASHPROCESSOR/cdecodeinstructionout_app_arg_selection_2" type="other">
+      <obj_property name="ElementShortName">cdecodeinstructionout_app_arg_selection_2</obj_property>
+      <obj_property name="ObjectShortName">cdecodeinstructionout_app_arg_selection_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/PROCESSOR0/A" type="array">
+      <obj_property name="ElementShortName">A[15:0]</obj_property>
+      <obj_property name="ObjectShortName">A[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/CLASHPROCESSOR/internalregisters.fsmregisters_sel9_mcri" type="other">
+      <obj_property name="ElementShortName">.fsmregisters_sel9_mcri</obj_property>
+      <obj_property name="ObjectShortName">.fsmregisters_sel9_mcri</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/PROCESSOR0/MCRu" type="array">
+      <obj_property name="ElementShortName">MCRu[7:0]</obj_property>
+      <obj_property name="ObjectShortName">MCRu[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/CLASHPROCESSOR/cinternalregisters_app_arg_0" type="array">
+      <obj_property name="ElementShortName">cinternalregisters_app_arg_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cinternalregisters_app_arg_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/CLASHPROCESSOR/cinternalregisters_case_alt_selection_3" type="array">
+      <obj_property name="ElementShortName">cinternalregisters_case_alt_selection_3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cinternalregisters_case_alt_selection_3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compare/CLASHPROCESSOR/cinternalregisters_case_alt" type="array">
+      <obj_property name="ElementShortName">cinternalregisters_case_alt</obj_property>
+      <obj_property name="ObjectShortName">cinternalregisters_case_alt</obj_property>
+   </wvobject>
+</wave_config>

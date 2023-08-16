@@ -1,0 +1,6 @@
+packages:
+  mosicImpl.cabal
+
+write-ghc-environment-files: always
+
+build-depends: mtl,lens,generic-monoid

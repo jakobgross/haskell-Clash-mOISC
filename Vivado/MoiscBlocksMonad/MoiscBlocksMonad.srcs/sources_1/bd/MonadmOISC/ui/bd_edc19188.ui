@@ -1,0 +1,59 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.577211",
+   "Default View_TopLeft":"-185,-539",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_clock10khz_0 -pg 1 -lvl 0 -x -40 -y -170 -defaultsOSRD
+preplace port port-id_clock1mhz_0 -pg 1 -lvl 0 -x -40 -y -140 -defaultsOSRD
+preplace port port-id_clock50mhz_0 -pg 1 -lvl 0 -x -40 -y -110 -defaultsOSRD
+preplace port port-id_clock100mhz_0 -pg 1 -lvl 0 -x -40 -y -80 -defaultsOSRD
+preplace port port-id_RST_0 -pg 1 -lvl 0 -x -40 -y -30 -defaultsOSRD
+preplace port port-id_EN_0 -pg 1 -lvl 0 -x -40 -y 0 -defaultsOSRD
+preplace portBus outside_io_0 -pg 1 -lvl 5 -x 1950 -y 160 -defaultsOSRD
+preplace portBus out_status_status_0 -pg 1 -lvl 5 -x 1950 -y 200 -defaultsOSRD
+preplace inst clashFsmMonad_0 -pg 1 -lvl 2 -x 960 -y 60 -defaultsOSRD
+preplace inst clashMem_0 -pg 1 -lvl 3 -x 1420 -y -330 -defaultsOSRD
+preplace inst clashAlu_0 -pg 1 -lvl 3 -x 1420 -y 90 -defaultsOSRD
+preplace inst clashClockGen_0 -pg 1 -lvl 1 -x 500 -y -130 -defaultsOSRD
+preplace inst clashIoBuffer_0 -pg 1 -lvl 4 -x 1760 -y 170 -defaultsOSRD
+preplace inst clashIoCtr_0 -pg 1 -lvl 4 -x 1760 -y -30 -defaultsOSRD
+preplace netloc EN_0_1 1 0 4 NJ 0 600J -230 1250 -210 1600
+preplace netloc Net 1 4 1 N 160
+preplace netloc RST_0_1 1 0 4 -10J -10 620J -210 1240 -200 1590
+preplace netloc clashAlu_0_out_cmp 1 1 3 680 280 NJ 280 1590
+preplace netloc clashAlu_0_out_data 1 1 3 660 290 NJ 290 1580
+preplace netloc clashAlu_0_out_overflow 1 1 3 670 300 NJ 300 1600
+preplace netloc clashClockGen_0_clkOut 1 1 3 630 -220 1230 -180 1580
+preplace netloc clashFsmMonad_0_out_alu_mcr 1 2 1 1210 40n
+preplace netloc clashFsmMonad_0_out_alu_mem_a 1 2 1 1220 60n
+preplace netloc clashFsmMonad_0_out_alu_mem_b 1 2 1 1180 80n
+preplace netloc clashFsmMonad_0_out_alu_mem_mem_b 1 2 1 1160 100n
+preplace netloc clashFsmMonad_0_out_alu_pc 1 2 1 1250 70n
+preplace netloc clashFsmMonad_0_out_clock_speed 1 0 3 10 -20 610 -200 1140
+preplace netloc clashFsmMonad_0_out_iobuf_dataout 1 2 2 1230J 190 1610
+preplace netloc clashFsmMonad_0_out_iobuf_oe 1 2 2 1190J 200 1620
+preplace netloc clashFsmMonad_0_out_ioctr_icr 1 2 2 1220J -10 1580
+preplace netloc clashFsmMonad_0_out_ioctr_interrupt_block 1 2 2 1170J -30 N
+preplace netloc clashFsmMonad_0_out_ioctr_iwr 1 2 2 NJ -20 1600
+preplace netloc clashFsmMonad_0_out_mem_address 1 2 1 1160 -290n
+preplace netloc clashFsmMonad_0_out_mem_data_wr 1 2 1 1190 -270n
+preplace netloc clashFsmMonad_0_out_mem_rden 1 2 1 1170 -330n
+preplace netloc clashFsmMonad_0_out_mem_wren 1 2 1 1180 -310n
+preplace netloc clashFsmMonad_0_out_status_cpu_stop_status 1 0 3 0 -240 NJ -240 1150
+preplace netloc clashFsmMonad_0_out_status_status 1 2 3 1170J 240 NJ 240 1910J
+preplace netloc clashIoBuffer_0_to_fsm 1 1 4 650 -180 1220 -170 1620 -170 1920
+preplace netloc clashIoCtr_0_out_CPU_STOP 1 1 4 640 -190 NJ -190 NJ -190 1930
+preplace netloc clashIoCtr_0_out_INTERRUPT 1 1 4 670 -170 1210J -160 NJ -160 1910
+preplace netloc clashIoCtr_0_out_ISR 1 1 4 680 -160 1200J -150 NJ -150 1900
+preplace netloc clashMem_0_out_data_q 1 1 3 660 -450 NJ -450 1580
+preplace netloc clock100mhz_0_1 1 0 1 N -80
+preplace netloc clock10khz_0_1 1 0 1 -10 -170n
+preplace netloc clock1mhz_0_1 1 0 1 -20 -140n
+preplace netloc clock50mhz_0_1 1 0 1 -10 -110n
+levelinfo -pg 1 -40 500 960 1420 1760 1950
+pagesize -pg 1 -db -bbox -sgen -190 -480 2150 500
+"
+}
+0

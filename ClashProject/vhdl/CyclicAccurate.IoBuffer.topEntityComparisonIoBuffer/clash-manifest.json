@@ -1,0 +1,84 @@
+{
+    "components": [
+        "IoBuffer"
+    ],
+    "dependencies": {
+        "transitive": []
+    },
+    "version": "unstable",
+    "top_component": {
+        "name": "IoBuffer",
+        "ports_flat": [
+            {
+                "direction": "in",
+                "name": "fsm_in",
+                "width": 8,
+                "is_clock": false,
+                "type_name": "std_logic_vector(7 downto 0)"
+            },
+            {
+                "direction": "in",
+                "name": "dir",
+                "width": 8,
+                "is_clock": false,
+                "type_name": "std_logic_vector(7 downto 0)"
+            },
+            {
+                "direction": "inout",
+                "name": "outside_io",
+                "width": 8,
+                "is_clock": false,
+                "type_name": "std_logic_vector(7 downto 0)"
+            },
+            {
+                "direction": "out",
+                "name": "to_fsm",
+                "width": 8,
+                "is_clock": false,
+                "type_name": "std_logic_vector(7 downto 0)"
+            }
+        ]
+    },
+    "domains": {
+        "IntelSystem": {
+            "reset_kind": "Asynchronous",
+            "active_edge": "Rising",
+            "period": 10000,
+            "init_behavior": "Defined",
+            "reset_polarity": "ActiveHigh"
+        },
+        "XilinxSystem": {
+            "reset_kind": "Synchronous",
+            "active_edge": "Rising",
+            "period": 10000,
+            "init_behavior": "Defined",
+            "reset_polarity": "ActiveHigh"
+        },
+        "System": {
+            "reset_kind": "Asynchronous",
+            "active_edge": "Rising",
+            "period": 10000,
+            "init_behavior": "Defined",
+            "reset_polarity": "ActiveHigh"
+        }
+    },
+    "flags": [
+        20,
+        20
+    ],
+    "hash": "359543ba56527ffdd87d76a9ecaf0c69ea581f1f1dbe142daf0c72c408b06e3c",
+    "files": [
+        {
+            "name": "edam.py",
+            "sha256": "b208964f99815ecbe62d1ce011eaf79ed837a8c5ddb234b70bbda9e122f98e08"
+        },
+        {
+            "name": "IoBuffer_types.vhdl",
+            "sha256": "4039e620dc4ae5a17351896f8d0b014d16b3cf5ec135c7bfb1aeb4d4837b1ac9"
+        },
+        {
+            "name": "IoBuffer.vhdl",
+            "sha256": "a873853be7261749694f37c41d4b96fe558d04ec3f8052a711e8ebdb1ebe3614"
+        }
+    ]
+}

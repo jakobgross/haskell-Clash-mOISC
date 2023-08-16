@@ -1,0 +1,12 @@
+resolver: lts-18.27
+
+extra-deps:
+  - clash-prelude-1.6.2
+  - clash-lib-1.6.2
+  - clash-ghc-1.6.2
+  - mtl-2.2.2
+  - lens-5.1
+  - extra-1.7.9
+  - barbies-2.0.3.0
+  - barbies-th-0.1.8
+  - generic-monoid-0.1.0.1

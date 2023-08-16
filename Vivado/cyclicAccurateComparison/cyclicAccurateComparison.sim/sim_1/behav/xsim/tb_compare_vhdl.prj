@@ -1,0 +1,23 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../cyclicAccurateComparison.srcs/sources_1/imports/clash-moisc/Clash/cyclicAccurateMoisc/vhdl/Lib.Alu.topEntitiyComparisonAlu/ALU_types.vhdl" \
+"../../../../cyclicAccurateComparison.srcs/sources_1/imports/clash-moisc/Clash/cyclicAccurateMoisc/vhdl/Lib.Alu.topEntitiyComparisonAlu/ALU.vhdl" \
+"../../../../cyclicAccurateComparison.srcs/sources_1/imports/Lib.Fsm.topEntitiyComparisonFsm/FSM_types.vhdl" \
+"../../../../cyclicAccurateComparison.srcs/sources_1/imports/Lib.Fsm.topEntitiyComparisonFsm/FSM.vhdl" \
+"../../../../cyclicAccurateComparison.srcs/sources_1/imports/Lib.topEntityComparisonIoController/IoCtr_types.vhdl" \
+"../../../../cyclicAccurateComparison.srcs/sources_1/imports/Lib.topEntityComparisonIoController/IoCtr.vhdl" \
+"../../../../cyclicAccurateComparison.srcs/sources_1/imports/Lib.Mem.topEntitiyComparisonMem/Mem_types.vhdl" \
+"../../../../cyclicAccurateComparison.srcs/sources_1/imports/Lib.Mem.topEntitiyComparisonMem/Mem.vhdl" \
+"../../../../cyclicAccurateComparison.srcs/sources_1/imports/clash-moisc/Vivado/referenceImplementationVivado/referenceImplementationVivado.srcs/sources_1/imports/quartusrtl.out.full/dRISC_DEFINITIONS.vhd" \
+"../../../../cyclicAccurateComparison.srcs/sources_1/imports/clash-moisc/Vivado/referenceImplementationVivado/referenceImplementationVivado.srcs/sources_1/imports/quartusrtl.out.full/dRISC_ALU.vhd" \
+"../../../../cyclicAccurateComparison.srcs/sources_1/imports/clash-moisc/Vivado/referenceImplementationVivado/referenceImplementationVivado.srcs/sources_1/imports/quartusrtl.out.full/dRISC_FSM.vhd" \
+"../../../../cyclicAccurateComparison.srcs/sources_1/imports/clash-moisc/Vivado/referenceImplementationVivado/referenceImplementationVivado.srcs/sources_1/imports/quartusrtl.out.full/dRISC_IOCONTROLLER.vhd" \
+"../../../../cyclicAccurateComparison.srcs/sources_1/imports/clash-moisc/Vivado/referenceImplementationVivado/referenceImplementationVivado.srcs/sources_1/imports/quartusrtl.out.full/dRISC_PLL.vhd" \
+"../../../../cyclicAccurateComparison.srcs/sources_1/imports/clash-moisc/Vivado/referenceImplementationVivado/referenceImplementationVivado.srcs/sources_1/imports/quartusrtl.out.full/iobuf.vhd" \
+"../../../../cyclicAccurateComparison.srcs/sources_1/imports/clash-moisc/Vivado/referenceImplementationVivado/referenceImplementationVivado.srcs/sources_1/imports/quartusrtl.out.full/memory.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../cyclicAccurateComparison.srcs/sim_1/new/tb_compare.vhd" \
+
+# Do not sort compile order
+nosort

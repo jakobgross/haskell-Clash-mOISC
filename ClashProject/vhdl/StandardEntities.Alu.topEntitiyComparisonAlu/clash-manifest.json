@@ -1,0 +1,145 @@
+{
+    "components": [
+        "standardentities_alu_topentitiycomparisonalu_alu",
+        "ALU"
+    ],
+    "dependencies": {
+        "transitive": []
+    },
+    "version": "unstable",
+    "top_component": {
+        "name": "ALU",
+        "ports_flat": [
+            {
+                "direction": "in",
+                "domain": "XilinxSystem",
+                "name": "clk",
+                "width": 1,
+                "is_clock": true,
+                "type_name": "clk.ALU_types.clk_xilinxsystem"
+            },
+            {
+                "direction": "in",
+                "domain": "XilinxSystem",
+                "name": "rst",
+                "width": 1,
+                "is_clock": false,
+                "type_name": "rst.ALU_types.rst_xilinxsystem"
+            },
+            {
+                "direction": "in",
+                "domain": "XilinxSystem",
+                "name": "en",
+                "width": 1,
+                "is_clock": false,
+                "type_name": "en.ALU_types.en_xilinxsystem"
+            },
+            {
+                "direction": "in",
+                "name": "mcr",
+                "width": 8,
+                "is_clock": false,
+                "type_name": "std_logic_vector(7 downto 0)"
+            },
+            {
+                "direction": "in",
+                "name": "pc",
+                "width": 16,
+                "is_clock": false,
+                "type_name": "std_logic_vector(15 downto 0)"
+            },
+            {
+                "direction": "in",
+                "name": "mem_a",
+                "width": 16,
+                "is_clock": false,
+                "type_name": "signed(15 downto 0)"
+            },
+            {
+                "direction": "in",
+                "name": "mem_b",
+                "width": 16,
+                "is_clock": false,
+                "type_name": "signed(15 downto 0)"
+            },
+            {
+                "direction": "in",
+                "name": "mem_mem_b",
+                "width": 16,
+                "is_clock": false,
+                "type_name": "signed(15 downto 0)"
+            },
+            {
+                "direction": "out",
+                "name": "out_overflow",
+                "width": 1,
+                "is_clock": false,
+                "type_name": "std_logic"
+            },
+            {
+                "direction": "out",
+                "name": "out_cmp",
+                "width": 3,
+                "is_clock": false,
+                "type_name": "std_logic_vector(2 downto 0)"
+            },
+            {
+                "direction": "out",
+                "name": "out_data",
+                "width": 16,
+                "is_clock": false,
+                "type_name": "signed(15 downto 0)"
+            }
+        ]
+    },
+    "domains": {
+        "IntelSystem": {
+            "reset_kind": "Asynchronous",
+            "active_edge": "Rising",
+            "period": 10000,
+            "init_behavior": "Defined",
+            "reset_polarity": "ActiveHigh"
+        },
+        "XilinxSystem": {
+            "reset_kind": "Synchronous",
+            "active_edge": "Rising",
+            "period": 10000,
+            "init_behavior": "Defined",
+            "reset_polarity": "ActiveHigh"
+        },
+        "System": {
+            "reset_kind": "Asynchronous",
+            "active_edge": "Rising",
+            "period": 10000,
+            "init_behavior": "Defined",
+            "reset_polarity": "ActiveHigh"
+        }
+    },
+    "flags": [
+        20,
+        20
+    ],
+    "hash": "bf79c2ce3dd2dadac76ed0dd13035dcf624ec497344f7a156f4bd6d350be7e68",
+    "files": [
+        {
+            "name": "edam.py",
+            "sha256": "76be0c5dc77ee0a96f30a10a1a81ba25a8fce776c4eb99c62a3b3713583f10bc"
+        },
+        {
+            "name": "ALU.sdc",
+            "sha256": "13d4c1aafcc09a84d81d3b60d513cb901384a10e27e5a5a16572a600f15895f3"
+        },
+        {
+            "name": "ALU_types.vhdl",
+            "sha256": "64ef8e6e0e94e92ae2f9f02c89e65d8efd0e85ee663e253705a19cc8d669056e"
+        },
+        {
+            "name": "standardentities_alu_topentitiycomparisonalu_alu.vhdl",
+            "sha256": "370835e116d54e73a280a09f2cddb3649f4eb5e6b411f70c19224a190f9bd24c"
+        },
+        {
+            "name": "ALU.vhdl",
+            "sha256": "9580161474a2959f520c799b41f855355858480ba490c060aa24baedd5a80721"
+        }
+    ]
+}

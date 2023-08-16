@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1661425327">
+  <File Type="PA-TCL" Name="MonadmOISC_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="MonadmOISC_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="MonadmOISC_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="MonadmOISC_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="MonadmOISC_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="MonadmOISC_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="MonadmOISC_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="MonadmOISC_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="MonadmOISC_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/MonadmOISC/MonadmOISC.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/MonadmOISC/hdl/MonadmOISC_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ClashProject/memory.bin">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Clash/ClashProject/memory.bin"/>
+        <Attr Name="ImportTime" Val="1650382785"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/iotest2.clash.bin">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Clash/ClashProject/mem/iotest2.clash.bin"/>
+        <Attr Name="ImportTime" Val="1660996017"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MonadmOISC_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="MonadmOISC_clashMem_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MonadmOISC_clashFsmMonad_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MonadmOISC_clashIoCtr_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MonadmOISC_clashClockGen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MonadmOISC_clashIoBuffer_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MonadmOISC_clashAlu_0_0"/>
+</GenRun>

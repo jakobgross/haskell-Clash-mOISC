@@ -1,0 +1,10 @@
++==============+===============+=======================================+
+| Launch Clock | Capture Clock | Pin                                   |
++==============+===============+=======================================+
+| c1           | c1            | PROCESSOR0/NETWORK0.PCi_new_reg[15]/D |
+| c1           | c1            | PROCESSOR0/NETWORK0.PCi_new_reg[9]/D  |
+| c1           | c1            | PROCESSOR0/NETWORK0.PCi_new_reg[8]/D  |
+| c1           | c1            | PROCESSOR0/NETWORK0.PCi_new_reg[12]/D |
+| c1           | c1            | PROCESSOR0/NETWORK0.PCi_new_reg[14]/D |
+| c1           | c1            | PROCESSOR0/NETWORK0.PCi_new_reg[0]/D  |
++--------------+---------------+---------------------------------------+

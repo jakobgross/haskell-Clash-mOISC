@@ -1,0 +1,98 @@
+{
+    "components": [
+        "DramTest"
+    ],
+    "dependencies": {
+        "transitive": []
+    },
+    "version": "unstable",
+    "top_component": {
+        "name": "DramTest",
+        "ports_flat": [
+            {
+                "direction": "in",
+                "domain": "Dom",
+                "name": "CLK",
+                "width": 1,
+                "is_clock": true,
+                "type_name": "CLK.DramTest_types.clk_Dom"
+            },
+            {
+                "direction": "in",
+                "domain": "Dom",
+                "name": "RST",
+                "width": 1,
+                "is_clock": false,
+                "type_name": "RST.DramTest_types.rst_Dom"
+            },
+            {
+                "direction": "in",
+                "domain": "Dom",
+                "name": "EN",
+                "width": 1,
+                "is_clock": false,
+                "type_name": "EN.DramTest_types.en_Dom"
+            },
+            {
+                "direction": "out",
+                "name": "OUTPUT",
+                "width": 8,
+                "is_clock": false,
+                "type_name": "unsigned(7 downto 0)"
+            }
+        ]
+    },
+    "domains": {
+        "IntelSystem": {
+            "reset_kind": "Asynchronous",
+            "active_edge": "Rising",
+            "period": 10000,
+            "init_behavior": "Defined",
+            "reset_polarity": "ActiveHigh"
+        },
+        "XilinxSystem": {
+            "reset_kind": "Synchronous",
+            "active_edge": "Rising",
+            "period": 10000,
+            "init_behavior": "Defined",
+            "reset_polarity": "ActiveHigh"
+        },
+        "System": {
+            "reset_kind": "Asynchronous",
+            "active_edge": "Rising",
+            "period": 10000,
+            "init_behavior": "Defined",
+            "reset_polarity": "ActiveHigh"
+        },
+        "Dom": {
+            "reset_kind": "Asynchronous",
+            "active_edge": "Rising",
+            "period": 50000,
+            "init_behavior": "Defined",
+            "reset_polarity": "ActiveHigh"
+        }
+    },
+    "flags": [
+        20,
+        20
+    ],
+    "hash": "28f83546ba0a0b6191c481f4d3f1edcd5ce983abc06d93037c693d1c59ad20a1",
+    "files": [
+        {
+            "name": "DramTest.sdc",
+            "sha256": "0e4af326b0e834e78a3c341fe5cf57f169f0183b788a824a628bd2b6b412d747"
+        },
+        {
+            "name": "DramTest_types.vhdl",
+            "sha256": "a70b7df7a6d0ab0586390be8f478bed693ecdd39b7fd242fa09e185948e91b8a"
+        },
+        {
+            "name": "DramTest.vhdl",
+            "sha256": "becc1d299805b684df8b8cc5770e4fbdc6341fcf910b94c01a113cd8aad4f3c5"
+        },
+        {
+            "name": "memory.bin",
+            "sha256": "db668ea0a77021d89b2e6bc6731f678c0fa35d75f45f104d31ffb9fcf3035852"
+        }
+    ]
+}

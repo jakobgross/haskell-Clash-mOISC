@@ -1,0 +1,3 @@
+[submodule "ReferenceImpl/mOISC-dRISC"]
+	path = ReferenceImpl/mOISC-dRISC
+	url = https://github.com/MarcoCrepaldi-iit/mOISC-dRISC

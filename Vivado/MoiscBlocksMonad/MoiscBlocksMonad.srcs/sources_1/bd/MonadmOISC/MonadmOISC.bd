@@ -1,0 +1,313 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xE4B4A08815A5F0DB",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../MoiscBlocksMonad.gen/sources_1/bd/MonadmOISC",
+      "name": "MonadmOISC",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.2.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "clashFsmMonad_0": "",
+      "clashMem_0": "",
+      "clashAlu_0": "",
+      "clashClockGen_0": "",
+      "clashIoBuffer_0": "",
+      "clashIoCtr_0": ""
+    },
+    "ports": {
+      "outside_io_0": {
+        "direction": "IO",
+        "left": "7",
+        "right": "0"
+      },
+      "clock10khz_0": {
+        "direction": "I"
+      },
+      "clock1mhz_0": {
+        "direction": "I"
+      },
+      "clock50mhz_0": {
+        "direction": "I"
+      },
+      "clock100mhz_0": {
+        "direction": "I"
+      },
+      "RST_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "EN_0": {
+        "direction": "I"
+      },
+      "out_status_status_0": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      }
+    },
+    "components": {
+      "clashFsmMonad_0": {
+        "vlnv": "cs12.tf.fau.de:mOISCclash:clashFsmMonad:1.0",
+        "xci_name": "MonadmOISC_clashFsmMonad_0_0",
+        "xci_path": "ip\\MonadmOISC_clashFsmMonad_0_0\\MonadmOISC_clashFsmMonad_0_0.xci",
+        "inst_hier_path": "clashFsmMonad_0"
+      },
+      "clashMem_0": {
+        "vlnv": "cs12.tf.fau.de:mOISCclash:clashMem:1.0",
+        "xci_name": "MonadmOISC_clashMem_0_0",
+        "xci_path": "ip\\MonadmOISC_clashMem_0_0\\MonadmOISC_clashMem_0_0.xci",
+        "inst_hier_path": "clashMem_0",
+        "parameters": {
+          "memory_file": {
+            "value": "D:/git/clash-moisc/Vivado/MoiscBlocksMonad/MoiscBlocksMonad.srcs/sources_1/imports/mem/iotest2.clash.bin"
+          }
+        }
+      },
+      "clashAlu_0": {
+        "vlnv": "cs12.tf.fau.de:mOISCclash:clashAlu:ALU:1.0",
+        "xci_name": "MonadmOISC_clashAlu_0_0",
+        "xci_path": "ip\\MonadmOISC_clashAlu_0_0\\MonadmOISC_clashAlu_0_0.xci",
+        "inst_hier_path": "clashAlu_0"
+      },
+      "clashClockGen_0": {
+        "vlnv": "cs12.tf.fau.de:mOISCclash:clashClockGen:1.0",
+        "xci_name": "MonadmOISC_clashClockGen_0_0",
+        "xci_path": "ip\\MonadmOISC_clashClockGen_0_0\\MonadmOISC_clashClockGen_0_0.xci",
+        "inst_hier_path": "clashClockGen_0"
+      },
+      "clashIoBuffer_0": {
+        "vlnv": "cs12.tf.fau.de:mOISCclash:clashIoBuffer:1.0",
+        "xci_name": "MonadmOISC_clashIoBuffer_0_0",
+        "xci_path": "ip\\MonadmOISC_clashIoBuffer_0_0\\MonadmOISC_clashIoBuffer_0_0.xci",
+        "inst_hier_path": "clashIoBuffer_0"
+      },
+      "clashIoCtr_0": {
+        "vlnv": "cs12.tf.fau.de:mOISCclash:clashIoCtr:1.0",
+        "xci_name": "MonadmOISC_clashIoCtr_0_0",
+        "xci_path": "ip\\MonadmOISC_clashIoCtr_0_0\\MonadmOISC_clashIoCtr_0_0.xci",
+        "inst_hier_path": "clashIoCtr_0"
+      }
+    },
+    "nets": {
+      "EN_0_1": {
+        "ports": [
+          "EN_0",
+          "clashFsmMonad_0/EN",
+          "clashMem_0/EN",
+          "clashIoCtr_0/EN"
+        ]
+      },
+      "Net": {
+        "ports": [
+          "outside_io_0",
+          "clashIoBuffer_0/outside_io"
+        ]
+      },
+      "RST_0_1": {
+        "ports": [
+          "RST_0",
+          "clashFsmMonad_0/RST",
+          "clashMem_0/RST",
+          "clashIoCtr_0/RST"
+        ]
+      },
+      "clashAlu_0_out_cmp": {
+        "ports": [
+          "clashAlu_0/out_cmp",
+          "clashFsmMonad_0/in_alu_cmp"
+        ]
+      },
+      "clashAlu_0_out_data": {
+        "ports": [
+          "clashAlu_0/out_data",
+          "clashFsmMonad_0/in_alu_data_res"
+        ]
+      },
+      "clashAlu_0_out_overflow": {
+        "ports": [
+          "clashAlu_0/out_overflow",
+          "clashFsmMonad_0/in_alu_overflow"
+        ]
+      },
+      "clashClockGen_0_clkOut": {
+        "ports": [
+          "clashClockGen_0/clkOut",
+          "clashFsmMonad_0/CLK",
+          "clashMem_0/CLK",
+          "clashIoCtr_0/CLK"
+        ]
+      },
+      "clashFsmMonad_0_out_alu_mcr": {
+        "ports": [
+          "clashFsmMonad_0/out_alu_mcr",
+          "clashAlu_0/in_mcr"
+        ]
+      },
+      "clashFsmMonad_0_out_alu_mem_a": {
+        "ports": [
+          "clashFsmMonad_0/out_alu_mem_a",
+          "clashAlu_0/in_mem_a"
+        ]
+      },
+      "clashFsmMonad_0_out_alu_mem_b": {
+        "ports": [
+          "clashFsmMonad_0/out_alu_mem_b",
+          "clashAlu_0/in_mem_b"
+        ]
+      },
+      "clashFsmMonad_0_out_alu_mem_mem_b": {
+        "ports": [
+          "clashFsmMonad_0/out_alu_mem_mem_b",
+          "clashAlu_0/in_mem_mem_b"
+        ]
+      },
+      "clashFsmMonad_0_out_alu_pc": {
+        "ports": [
+          "clashFsmMonad_0/out_alu_pc",
+          "clashAlu_0/in_pc"
+        ]
+      },
+      "clashFsmMonad_0_out_clock_speed": {
+        "ports": [
+          "clashFsmMonad_0/out_clock_speed",
+          "clashClockGen_0/csr_in"
+        ]
+      },
+      "clashFsmMonad_0_out_iobuf_dataout": {
+        "ports": [
+          "clashFsmMonad_0/out_iobuf_dataout",
+          "clashIoBuffer_0/fsm_in"
+        ]
+      },
+      "clashFsmMonad_0_out_iobuf_oe": {
+        "ports": [
+          "clashFsmMonad_0/out_iobuf_oe",
+          "clashIoBuffer_0/dir"
+        ]
+      },
+      "clashFsmMonad_0_out_ioctr_icr": {
+        "ports": [
+          "clashFsmMonad_0/out_ioctr_icr",
+          "clashIoCtr_0/ICR_in"
+        ]
+      },
+      "clashFsmMonad_0_out_ioctr_interrupt_block": {
+        "ports": [
+          "clashFsmMonad_0/out_ioctr_interrupt_block",
+          "clashIoCtr_0/INTERRUPT_BLOCK"
+        ]
+      },
+      "clashFsmMonad_0_out_ioctr_iwr": {
+        "ports": [
+          "clashFsmMonad_0/out_ioctr_iwr",
+          "clashIoCtr_0/IWR_in"
+        ]
+      },
+      "clashFsmMonad_0_out_mem_address": {
+        "ports": [
+          "clashFsmMonad_0/out_mem_address",
+          "clashMem_0/address"
+        ]
+      },
+      "clashFsmMonad_0_out_mem_data_wr": {
+        "ports": [
+          "clashFsmMonad_0/out_mem_data_wr",
+          "clashMem_0/data"
+        ]
+      },
+      "clashFsmMonad_0_out_mem_rden": {
+        "ports": [
+          "clashFsmMonad_0/out_mem_rden",
+          "clashMem_0/rden"
+        ]
+      },
+      "clashFsmMonad_0_out_mem_wren": {
+        "ports": [
+          "clashFsmMonad_0/out_mem_wren",
+          "clashMem_0/wren"
+        ]
+      },
+      "clashFsmMonad_0_out_status_cpu_stop_status": {
+        "ports": [
+          "clashFsmMonad_0/out_status_cpu_stop_status",
+          "clashClockGen_0/cpu_stop_in"
+        ]
+      },
+      "clashFsmMonad_0_out_status_status": {
+        "ports": [
+          "clashFsmMonad_0/out_status_status",
+          "out_status_status_0"
+        ]
+      },
+      "clashIoBuffer_0_to_fsm": {
+        "ports": [
+          "clashIoBuffer_0/to_fsm",
+          "clashIoCtr_0/IOR_in",
+          "clashFsmMonad_0/in_iobuf_data"
+        ]
+      },
+      "clashIoCtr_0_out_CPU_STOP": {
+        "ports": [
+          "clashIoCtr_0/out_CPU_STOP",
+          "clashFsmMonad_0/in_ioctr_cpu_stop"
+        ]
+      },
+      "clashIoCtr_0_out_INTERRUPT": {
+        "ports": [
+          "clashIoCtr_0/out_INTERRUPT",
+          "clashFsmMonad_0/in_ioctr_interrupt"
+        ]
+      },
+      "clashIoCtr_0_out_ISR": {
+        "ports": [
+          "clashIoCtr_0/out_ISR",
+          "clashFsmMonad_0/in_ioctr_isr"
+        ]
+      },
+      "clashMem_0_out_data_q": {
+        "ports": [
+          "clashMem_0/out_data_q",
+          "clashFsmMonad_0/in_mem_data_rd"
+        ]
+      },
+      "clock100mhz_0_1": {
+        "ports": [
+          "clock100mhz_0",
+          "clashClockGen_0/clock100mhz"
+        ]
+      },
+      "clock10khz_0_1": {
+        "ports": [
+          "clock10khz_0",
+          "clashClockGen_0/clock10khz"
+        ]
+      },
+      "clock1mhz_0_1": {
+        "ports": [
+          "clock1mhz_0",
+          "clashClockGen_0/clock1mhz"
+        ]
+      },
+      "clock50mhz_0_1": {
+        "ports": [
+          "clock50mhz_0",
+          "clashClockGen_0/clock50mhz"
+        ]
+      }
+    }
+  }
+}

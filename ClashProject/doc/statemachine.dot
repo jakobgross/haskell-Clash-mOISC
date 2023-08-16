@@ -1,0 +1,163 @@
+digraph {
+    splines=ortho;
+    // concentrate=true;
+    node [shape="box", style="rounded", penwidth = 2];
+    edge [color="#142b30", arrowhead="vee", penwidth = 2];
+
+    subgraph cluster_fsm {
+        label="FSM";
+        style=filled;
+        color=lightgrey;
+        CLK_fsm;
+        RST_fsm;
+        PC_fsm
+        MCR_fsm;
+        CHR_fsm;
+        IWR_fsm;
+        ICR_fsm;
+        CSR_fsm;
+        ISR_fsm;
+        ISRin_fsm;
+        IOR_fsm;
+        IORin_fsm;
+        IDR_fsm;
+        ALU_DATA_fsm;
+        CMP_fsm;
+        A_fsm;
+        B_fsm;
+        C_fsm;
+        D_fsm;
+        E_fsm;
+        F_fsm;
+        INTERRUPT_BLOCK_fsm;
+        INTERRUPT_fsm;
+        CPU_STOP_fsm;
+        OVERFLOW_fsm;
+        CPU_STOPin_fsm;
+        MEM_address_fsm;	
+        MEM_data_fsm;	
+        MEM_rden_fsm;	
+        MEM_wren_fsm;	
+        MEM_q_fsm;		
+    }
+
+    subgraph cluster_alu {
+        label="ALU"
+        style=filled;
+        color=lightgrey;
+        MEM_A_alu;
+        MEM_B_alu;
+        MEM_MEM_B_alu;
+        PC_alu;
+        DATA_alu;
+        MCR_alu;
+        OVERFLOW_alu;
+        CMP_alu;
+        CPU_STOPin_alu;
+        CLK_alu;
+        RST_alu
+    }
+
+    subgraph cluster_mem {
+        style=filled;
+        color=lightgrey;
+        label = "Memory";
+        address_mem;
+        clock_mem;
+        data_mem;
+        rden_mem;
+        wren_mem;
+        q_mem;
+    }
+
+    subgraph cluster_ioctr{
+        style=filled;
+        color=lightgrey;
+        label="IO Controller";
+        clk_ioctr;
+        rst_ioctr;
+        interrupt_block_ioctr;
+        ior_ioctr;
+        iwr_ioctr;
+        icr_ioctr;
+        isr_ioctr;
+        interrupt_ioctr;
+        cpu_stop_ioctr;
+    }
+
+    subgraph cluster_iobuf{
+        style=filled;
+        color=lightgrey;
+        label="IO Buffer";
+        datain_iobuf;
+        dataio_iobuf;
+        dataout_iobuf;
+        oe_iobuf;
+    }
+
+    subgraph cluster_pll{
+        style=filled;
+        color=lightgrey;
+        label="PLL";
+        inclk0_pll;
+        c0_pll;
+        c1_pll;
+        c2_pll;
+        c3_pll;
+        clk_pll;
+
+        c0_pll -> clk_pll;
+        c1_pll -> clk_pll;
+        c2_pll -> clk_pll;
+        c3_pll -> clk_pll;
+
+        locked_pll;
+    }
+    clk_pll -> CLK_alu;
+    clk_pll -> clock_mem;
+    clk_pll -> CLK_fsm;
+    clk_pll -> clk_ioctr;
+
+    rst -> RST_alu;
+    rst -> RST_fsm;
+    rst -> rst_ioctr;
+
+    MEM_A_alu -> E_fsm;
+    MEM_B_alu -> D_fsm;
+    MEM_MEM_B_alu -> F_fsm;
+    PC_alu -> PC_fsm;
+    DATA_alu -> ALU_DATA_fsm;
+    MCR_alu -> MCR_fsm;
+    OVERFLOW_alu -> OVERFLOW_fsm;
+    CMP_alu -> CMP_fsm;
+    cpu_stop_ioctr -> CPU_STOPin_alu;
+    cpu_stop_ioctr -> CPU_STOPin_fsm;
+    
+    MEM_address_fsm -> address_mem;
+    data_mem -> MEM_data_fsm;
+    MEM_rden_fsm -> rden_mem;
+    MEM_wren_fsm -> wren_mem;
+    MEM_q_fsm -> q_mem;
+    
+    IOR_fsm -> datain_iobuf;
+    dataio_iobuf -> IOR;
+    IOR -> dataio_iobuf;
+    dataout_iobuf -> IORin_fsm;
+    IDR_fsm -> oe_iobuf;
+
+    INTERRUPT_BLOCK_fsm -> interrupt_block_ioctr;
+    ior_ioctr -> IORin_fsm;
+    iwr_ioctr -> IWR_fsm;
+    icr_ioctr -> ICR_fsm;
+    isr_ioctr -> ISRin_fsm;
+    interrupt_ioctr -> INTERRUPT_fsm;
+    cpu_stop_ioctr -> CPU_STOPin_fsm;
+
+    A_fsm -> open;
+    B_fsm -> open;
+    C_fsm -> open;
+    ISR_fsm -> open;
+    CHR_fsm -> open;
+
+    CSR_fsm -> clk_pll [label="Clock Speed"];
+}

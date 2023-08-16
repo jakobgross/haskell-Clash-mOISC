@@ -1,0 +1,153 @@
+Date : 2022-08-01 16:10:41
+Directory : d:\git\clash-moisc\Clash\ClashProject
+Total : 92 files,  15849 codes, 1365 comments, 1504 blanks, all 18718 lines
+
+Languages
++---------------------------+------------+------------+------------+------------+------------+
+| language                  | files      | code       | comment    | blank      | total      |
++---------------------------+------------+------------+------------+------------+------------+
+| VHDL                      |         18 |      9,761 |        291 |        626 |     10,678 |
+| Haskell                   |         25 |      2,470 |        671 |        396 |      3,537 |
+| JSON                      |         11 |      1,575 |          0 |          0 |      1,575 |
+| Python                    |         10 |        550 |        150 |         70 |        770 |
+| XML                       |          1 |        482 |        115 |        130 |        727 |
+| Verilog                   |          2 |        299 |        102 |        120 |        521 |
+| Markdown                  |          1 |        253 |          2 |         78 |        333 |
+| Graphviz (DOT)            |          1 |        147 |          1 |         16 |        164 |
+| Cabal                     |          1 |        107 |         11 |         16 |        134 |
+| YAML                      |          2 |         81 |          4 |          4 |         89 |
+| vcd                       |          2 |         80 |          0 |          2 |         82 |
+| C++                       |          2 |         26 |          0 |         20 |         46 |
+| Xilinx Design Constraints |         10 |         10 |          0 |         20 |         30 |
+| Shell Script              |          6 |          8 |         18 |          6 |         32 |
++---------------------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                       | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                          |         92 |     15,849 |      1,365 |      1,504 |     18,718 |
+| bin                                                                                                        |          2 |         10 |          0 |          6 |         16 |
+| doc                                                                                                        |          2 |        629 |        116 |        146 |        891 |
+| src                                                                                                        |         19 |      2,414 |        671 |        371 |      3,456 |
+| src\CyclicAccurate                                                                                         |          6 |      1,361 |        252 |        174 |      1,787 |
+| src\CyclicMonad                                                                                            |          2 |        441 |        265 |         62 |        768 |
+| src\Example                                                                                                |          5 |        133 |         63 |         43 |        239 |
+| src\JoinedState                                                                                            |          1 |        245 |         16 |         47 |        308 |
+| src\StandardEntities                                                                                       |          5 |        234 |         75 |         45 |        354 |
+| tests                                                                                                      |          3 |         42 |          0 |         17 |         59 |
+| tests\Tests                                                                                                |          1 |         19 |          0 |          8 |         27 |
+| tests\Tests\Example                                                                                        |          1 |         19 |          0 |          8 |         27 |
+| verilog                                                                                                    |         10 |        646 |        132 |        158 |        936 |
+| verilog\Lib.IoBuffer.topEntityComparisonIoBuffer                                                           |          5 |        413 |        100 |        118 |        631 |
+| verilog\Main.topEntity                                                                                     |          5 |        233 |         32 |         40 |        305 |
+| vhdl                                                                                                       |         43 |     11,575 |        411 |        698 |     12,684 |
+| vhdl\Lib.Alu.topEntitiyComparisonAlu                                                                       |          5 |        516 |         42 |         58 |        616 |
+| vhdl\Lib.Alu.topEntityAlu                                                                                  |          4 |        412 |         39 |         43 |        494 |
+| vhdl\Lib.Fsm.topEntitiyComparisonFsm                                                                       |          5 |      2,876 |         43 |        115 |      3,034 |
+| vhdl\Lib.Fsm.topEntityFsm                                                                                  |          5 |      2,722 |         33 |         98 |      2,853 |
+| vhdl\Lib.IoBuffer.topEntityComparisonIoBuffer                                                              |          5 |        605 |        105 |        135 |        845 |
+| vhdl\Lib.Mem.topEntitiyComparisonMem                                                                       |          5 |        383 |         34 |         40 |        457 |
+| vhdl\Lib.Mosic.topEntity                                                                                   |          5 |      2,966 |         77 |        137 |      3,180 |
+| vhdl\Lib.topEntityComparisonIoController                                                                   |          5 |        528 |         27 |         46 |        601 |
+| vhdl\Main.topEntity                                                                                        |          4 |        567 |         11 |         26 |        604 |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------+---------------------------+------------+------------+------------+------------+
+| filename                                                                                                   | language                  | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------+---------------------------+------------+------------+------------+------------+
+| d:\git\clash-moisc\Clash\ClashProject\README.md                                                            | Markdown                  |        253 |          2 |         78 |        333 |
+| d:\git\clash-moisc\Clash\ClashProject\Setup.hs                                                             | Haskell                   |          4 |          0 |          2 |          6 |
+| d:\git\clash-moisc\Clash\ClashProject\bin\Clash.hs                                                         | Haskell                   |          5 |          0 |          3 |          8 |
+| d:\git\clash-moisc\Clash\ClashProject\bin\Clashi.hs                                                        | Haskell                   |          5 |          0 |          3 |          8 |
+| d:\git\clash-moisc\Clash\ClashProject\compileSpeicherTest.vcd                                              | vcd                       |         64 |          0 |          1 |         65 |
+| d:\git\clash-moisc\Clash\ClashProject\doc\Graph.svg                                                        | XML                       |        482 |        115 |        130 |        727 |
+| d:\git\clash-moisc\Clash\ClashProject\doc\statemachine.dot                                                 | Graphviz (DOT)            |        147 |          1 |         16 |        164 |
+| d:\git\clash-moisc\Clash\ClashProject\generate_alu.sh                                                      | Shell Script              |          2 |          3 |          1 |          6 |
+| d:\git\clash-moisc\Clash\ClashProject\generate_fsm.sh                                                      | Shell Script              |          2 |          3 |          1 |          6 |
+| d:\git\clash-moisc\Clash\ClashProject\generate_iobuf.sh                                                    | Shell Script              |          1 |          3 |          1 |          5 |
+| d:\git\clash-moisc\Clash\ClashProject\generate_ioctr.sh                                                    | Shell Script              |          1 |          3 |          1 |          5 |
+| d:\git\clash-moisc\Clash\ClashProject\generate_mem.sh                                                      | Shell Script              |          1 |          3 |          1 |          5 |
+| d:\git\clash-moisc\Clash\ClashProject\generate_moisc.sh                                                    | Shell Script              |          1 |          3 |          1 |          5 |
+| d:\git\clash-moisc\Clash\ClashProject\mosicImpl.cabal                                                      | Cabal                     |        107 |         11 |         16 |        134 |
+| d:\git\clash-moisc\Clash\ClashProject\mydump.vcd                                                           | vcd                       |         16 |          0 |          1 |         17 |
+| d:\git\clash-moisc\Clash\ClashProject\src\CyclicAccurate\CyclicAccurateInterfaces.hs                       | Haskell                   |        235 |          3 |         42 |        280 |
+| d:\git\clash-moisc\Clash\ClashProject\src\CyclicAccurate\CyclicAccurateMOISC.hs                            | Haskell                   |         35 |          0 |          8 |         43 |
+| d:\git\clash-moisc\Clash\ClashProject\src\CyclicAccurate\CyclicAccurateStates.hs                           | Haskell                   |         42 |          0 |          2 |         44 |
+| d:\git\clash-moisc\Clash\ClashProject\src\CyclicAccurate\Fsm.hs                                            | Haskell                   |        930 |        203 |        107 |      1,240 |
+| d:\git\clash-moisc\Clash\ClashProject\src\CyclicAccurate\IoBuffer.hs                                       | Haskell                   |         31 |         23 |          9 |         63 |
+| d:\git\clash-moisc\Clash\ClashProject\src\CyclicAccurate\IoController.hs                                   | Haskell                   |         88 |         23 |          6 |        117 |
+| d:\git\clash-moisc\Clash\ClashProject\src\CyclicMonad\MonadInterfaces.hs                                   | Haskell                   |        254 |          4 |         42 |        300 |
+| d:\git\clash-moisc\Clash\ClashProject\src\CyclicMonad\MonadMoisc.hs                                        | Haskell                   |        187 |        261 |         20 |        468 |
+| d:\git\clash-moisc\Clash\ClashProject\src\Example\Bundletest.hs                                            | Haskell                   |         28 |          1 |          3 |         32 |
+| d:\git\clash-moisc\Clash\ClashProject\src\Example\MonadTest.hs                                             | Haskell                   |          0 |         46 |          1 |         47 |
+| d:\git\clash-moisc\Clash\ClashProject\src\Example\MonoidTest.hs                                            | Haskell                   |         40 |          3 |         14 |         57 |
+| d:\git\clash-moisc\Clash\ClashProject\src\Example\Project.hs                                               | Haskell                   |          6 |         10 |          4 |         20 |
+| d:\git\clash-moisc\Clash\ClashProject\src\Example\RWStest.hs                                               | Haskell                   |         59 |          3 |         21 |         83 |
+| d:\git\clash-moisc\Clash\ClashProject\src\JoinedState\JoinedStateFSM.hs                                    | Haskell                   |        245 |         16 |         47 |        308 |
+| d:\git\clash-moisc\Clash\ClashProject\src\StandardEntities\Alu.hs                                          | Haskell                   |         88 |         53 |          8 |        149 |
+| d:\git\clash-moisc\Clash\ClashProject\src\StandardEntities\Barbies.hs                                      | Haskell                   |         22 |          1 |          6 |         29 |
+| d:\git\clash-moisc\Clash\ClashProject\src\StandardEntities\Instructions.hs                                 | Haskell                   |         48 |          1 |          4 |         53 |
+| d:\git\clash-moisc\Clash\ClashProject\src\StandardEntities\Mem.hs                                          | Haskell                   |         33 |         19 |         10 |         62 |
+| d:\git\clash-moisc\Clash\ClashProject\src\StandardEntities\Registers.hs                                    | Haskell                   |         43 |          1 |         17 |         61 |
+| d:\git\clash-moisc\Clash\ClashProject\stack.yaml                                                           | YAML                      |         11 |          0 |          2 |         13 |
+| d:\git\clash-moisc\Clash\ClashProject\stack.yaml.lock                                                      | YAML                      |         70 |          4 |          2 |         76 |
+| d:\git\clash-moisc\Clash\ClashProject\tests\Tests\Example\Project.hs                                       | Haskell                   |         19 |          0 |          8 |         27 |
+| d:\git\clash-moisc\Clash\ClashProject\tests\doctests.hs                                                    | Haskell                   |         16 |          0 |          5 |         21 |
+| d:\git\clash-moisc\Clash\ClashProject\tests\unittests.hs                                                   | Haskell                   |          7 |          0 |          4 |         11 |
+| d:\git\clash-moisc\Clash\ClashProject\verilog\Lib.IoBuffer.topEntityComparisonIoBuffer\IoBuffer.sdc        | Xilinx Design Constraints |          1 |          0 |          2 |          3 |
+| d:\git\clash-moisc\Clash\ClashProject\verilog\Lib.IoBuffer.topEntityComparisonIoBuffer\IoBuffer.v          | Verilog                   |        237 |         85 |         99 |        421 |
+| d:\git\clash-moisc\Clash\ClashProject\verilog\Lib.IoBuffer.topEntityComparisonIoBuffer\IoBuffer_shim.cpp   | C++                       |         13 |          0 |         10 |         23 |
+| d:\git\clash-moisc\Clash\ClashProject\verilog\Lib.IoBuffer.topEntityComparisonIoBuffer\clash-manifest.json | JSON                      |        112 |          0 |          0 |        112 |
+| d:\git\clash-moisc\Clash\ClashProject\verilog\Lib.IoBuffer.topEntityComparisonIoBuffer\edam.py             | Python                    |         50 |         15 |          7 |         72 |
+| d:\git\clash-moisc\Clash\ClashProject\verilog\Main.topEntity\DramTest.sdc                                  | Xilinx Design Constraints |          1 |          0 |          2 |          3 |
+| d:\git\clash-moisc\Clash\ClashProject\verilog\Main.topEntity\DramTest.v                                    | Verilog                   |         62 |         17 |         21 |        100 |
+| d:\git\clash-moisc\Clash\ClashProject\verilog\Main.topEntity\DramTest_shim.cpp                             | C++                       |         13 |          0 |         10 |         23 |
+| d:\git\clash-moisc\Clash\ClashProject\verilog\Main.topEntity\clash-manifest.json                           | JSON                      |        102 |          0 |          0 |        102 |
+| d:\git\clash-moisc\Clash\ClashProject\verilog\Main.topEntity\edam.py                                       | Python                    |         55 |         15 |          7 |         77 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntitiyComparisonAlu\ALU.sdc                         | Xilinx Design Constraints |          1 |          0 |          2 |          3 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntitiyComparisonAlu\ALU.vhdl                        | VHDL                      |        188 |         27 |         41 |        256 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntitiyComparisonAlu\ALU_types.vhdl                  | VHDL                      |        132 |          0 |          8 |        140 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntitiyComparisonAlu\clash-manifest.json             | JSON                      |        140 |          0 |          0 |        140 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntitiyComparisonAlu\edam.py                         | Python                    |         55 |         15 |          7 |         77 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntityAlu\ALU.vhdl                                   | VHDL                      |        130 |         24 |         29 |        183 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntityAlu\ALU_types.vhdl                             | VHDL                      |        120 |          0 |          7 |        127 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntityAlu\clash-manifest.json                        | JSON                      |        112 |          0 |          0 |        112 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Alu.topEntityAlu\edam.py                                    | Python                    |         50 |         15 |          7 |         72 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntitiyComparisonFsm\FSM.sdc                         | Xilinx Design Constraints |          1 |          0 |          2 |          3 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntitiyComparisonFsm\FSM.vhdl                        | VHDL                      |      2,165 |         28 |         97 |      2,290 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntitiyComparisonFsm\FSM_types.vhdl                  | VHDL                      |        397 |          0 |          9 |        406 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntitiyComparisonFsm\clash-manifest.json             | JSON                      |        258 |          0 |          0 |        258 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntitiyComparisonFsm\edam.py                         | Python                    |         55 |         15 |          7 |         77 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntityFsm\FSM.sdc                                    | Xilinx Design Constraints |          1 |          0 |          2 |          3 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntityFsm\FSM.vhdl                                   | VHDL                      |      2,047 |         18 |         81 |      2,146 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntityFsm\FSM_types.vhdl                             | VHDL                      |        353 |          0 |          8 |        361 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntityFsm\clash-manifest.json                        | JSON                      |        266 |          0 |          0 |        266 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Fsm.topEntityFsm\edam.py                                    | Python                    |         55 |         15 |          7 |         77 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.IoBuffer.topEntityComparisonIoBuffer\IoBuffer.sdc           | Xilinx Design Constraints |          1 |          0 |          2 |          3 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.IoBuffer.topEntityComparisonIoBuffer\IoBuffer.vhdl          | VHDL                      |        327 |         90 |        119 |        536 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.IoBuffer.topEntityComparisonIoBuffer\IoBuffer_types.vhdl    | VHDL                      |        110 |          0 |          7 |        117 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.IoBuffer.topEntityComparisonIoBuffer\clash-manifest.json    | JSON                      |        112 |          0 |          0 |        112 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.IoBuffer.topEntityComparisonIoBuffer\edam.py                | Python                    |         55 |         15 |          7 |         77 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mem.topEntitiyComparisonMem\Mem.sdc                         | Xilinx Design Constraints |          1 |          0 |          2 |          3 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mem.topEntitiyComparisonMem\Mem.vhdl                        | VHDL                      |         94 |         19 |         22 |        135 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mem.topEntitiyComparisonMem\Mem_types.vhdl                  | VHDL                      |        105 |          0 |          9 |        114 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mem.topEntitiyComparisonMem\clash-manifest.json             | JSON                      |        123 |          0 |          0 |        123 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mem.topEntitiyComparisonMem\edam.py                         | Python                    |         60 |         15 |          7 |         82 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mosic.topEntity\Lib_Mosic_topEntity_types.vhdl              | VHDL                      |        441 |          0 |          9 |        450 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mosic.topEntity\clash-manifest.json                         | JSON                      |        109 |          0 |          0 |        109 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mosic.topEntity\edam.py                                     | Python                    |         60 |         15 |          7 |         82 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mosic.topEntity\topentity.sdc                               | Xilinx Design Constraints |          1 |          0 |          2 |          3 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.Mosic.topEntity\topentity.vhdl                              | VHDL                      |      2,355 |         62 |        119 |      2,536 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.topEntityComparisonIoController\IoCtr.sdc                   | Xilinx Design Constraints |          1 |          0 |          2 |          3 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.topEntityComparisonIoController\IoCtr.vhdl                  | VHDL                      |        165 |         12 |         30 |        207 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.topEntityComparisonIoController\IoCtr_types.vhdl            | VHDL                      |        174 |          0 |          7 |        181 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.topEntityComparisonIoController\clash-manifest.json         | JSON                      |        133 |          0 |          0 |        133 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Lib.topEntityComparisonIoController\edam.py                     | Python                    |         55 |         15 |          7 |         77 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Main.topEntity\Main_topEntity_types.vhdl                        | VHDL                      |        142 |          0 |          8 |        150 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Main.topEntity\clash-manifest.json                              | JSON                      |        108 |          0 |          0 |        108 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Main.topEntity\topEntity.sdc                                    | Xilinx Design Constraints |          1 |          0 |          2 |          3 |
+| d:\git\clash-moisc\Clash\ClashProject\vhdl\Main.topEntity\topEntity.vhdl                                   | VHDL                      |        316 |         11 |         16 |        343 |
+| Total                                                                                                      |                           |     15,849 |      1,365 |      1,504 |     18,718 |
++------------------------------------------------------------------------------------------------------------+---------------------------+------------+------------+------------+------------+

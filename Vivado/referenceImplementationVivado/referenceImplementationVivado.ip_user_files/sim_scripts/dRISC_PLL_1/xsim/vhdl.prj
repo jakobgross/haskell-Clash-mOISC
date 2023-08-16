@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../referenceImplementationVivado.gen/sources_1/ip/dRISC_PLL_1/dRISC_PLL_sim_netlist.vhdl" \
+
+nosort

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1661435437">
+  <File Type="PA-TCL" Name="mOISC_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="mOISC_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="mOISC_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="mOISC_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="mOISC_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="mOISC_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="mOISC_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="mOISC_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="mOISC_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/mOISC/mOISC.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/mOISC/hdl/mOISC_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/iotest2.clash.bin">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Clash/ClashProject/mem/iotest2.clash.bin"/>
+        <Attr Name="ImportTime" Val="1660996017"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="mOISC_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/VivadoResources/zyboZ7Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../VivadoResources/zyboZ7Master.xdc"/>
+        <Attr Name="ImportTime" Val="1650364857"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="mOISC_clashMem_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mOISC_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mOISC_clashIoBuffer_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mOISC_clashFsm_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mOISC_util_vector_logic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mOISC_clashClockGen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mOISC_clashIoCtr_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mOISC_clashAlu_0_0"/>
+</GenRun>
